@@ -25,10 +25,10 @@ def key_for_min_value(name_hash)
         another+=1
       end
     end  # [10, 20, 14, 23, 15]
-    counter+1
+    counter+=1
   end
 
-name_hash.each do |name, number|
+name_hash.collect do |name, number|
   if number == holder[0]
     name
   end

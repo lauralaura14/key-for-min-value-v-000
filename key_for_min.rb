@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   holder = []
-  temp = []
+  temp=""
   name_hash.each do |name, number|
     holder << number
   end
@@ -30,8 +30,8 @@ def key_for_min_value(name_hash)
 
 name_hash.collect do |name, number|
   if number == holder[0]
-    temp << name
+    temp = name
   end
 end
-":"+temp[0]
+temp
 end

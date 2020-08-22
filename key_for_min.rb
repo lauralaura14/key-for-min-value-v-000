@@ -33,5 +33,5 @@ name_hash.collect do |name, number|
     temp << name
   end
 end
-":"+temp[0].to_s
+":"+temp[0].to_s.gsub(/\A"|"\z/,’’)
 end

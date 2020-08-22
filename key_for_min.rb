@@ -8,8 +8,8 @@ def key_for_min_value(name_hash)
     holder << number
   end
 
-  if name_hash == ""
-    nil
+  if name_hash == {}}
+    temp = nil
   end
 
   counter = 0

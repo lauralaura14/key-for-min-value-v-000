@@ -33,5 +33,5 @@ name_hash.collect do |name, number|
     temp << name
   end
 end
-temp
+temp[0].to_s
 end

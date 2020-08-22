@@ -28,7 +28,7 @@ def key_for_min_value(name_hash)
     counter+=1
   end
 
-name_hash.collect do |name, number|
+name_hash.each do |name, number|
   if number == holder[0]
     name
   end

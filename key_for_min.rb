@@ -30,7 +30,7 @@ def key_for_min_value(name_hash)
 
 name_hash.collect do |name, number|
   if number == holder[0]
-    name
+    puts name
   end
 end
 end
